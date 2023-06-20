@@ -55,6 +55,7 @@ html {
     font-size: 100px;
     content: "*";
     position: relative;
+    top: -10px;
 }
 
 
@@ -66,7 +67,7 @@ html {
 
 
 .container:hover::before {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 35px;
     content: "На самом деле нет.\A Важнее &mdash; научиться ошибаться.";
     position: absolute;
